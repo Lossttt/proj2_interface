@@ -1,4 +1,4 @@
-module com.example.hhs_proj2 {
+module com.example.hhs_proj {
     requires javafx.controls;
     requires javafx.fxml;
 
