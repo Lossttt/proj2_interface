@@ -16,6 +16,7 @@ public class HelloApplication extends Application {
         // Voeg css stylesheet toe
         scene.getStylesheets().add(getClass().getResource("/com/example/hhs_proj2/stylesheet.css").toExternalForm());
         // Gebruiker kan de windowgrootte niet aanpassen
+        // ..
         stage.setResizable(false);
 
         stage.setTitle("Welcome to 42's AI assistant!");
