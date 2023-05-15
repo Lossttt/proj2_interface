@@ -52,7 +52,7 @@
          <children>
             <TextField fx:id="usernameField" layoutX="74.0" layoutY="316.0" onAction="#userLogIn" prefHeight="27.0" prefWidth="251.0" promptText="Email address or ID" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #7DA3EA;" />
             <PasswordField fx:id="passwordField" layoutX="74.0" layoutY="366.0" onAction="#userLogIn" prefHeight="27.0" prefWidth="252.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #7DA3EA;" />
-            <Button fx:id="loginButton" layoutX="110.0" layoutY="468.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="30.0" prefWidth="180.0" style="-fx-background-color: #2545b1; -fx-border-radius: 5; -fx-border-color: black;" styleClass="buttonFont" text="LOGIN" textFill="WHITE" />
+            <Button id="loginButton" fx:id="loginButton" layoutX="110.0" layoutY="468.0" mnemonicParsing="false" onAction="#userLogIn" prefHeight="30.0" prefWidth="180.0" style="-fx-background-color: #2545b1; -fx-border-radius: 5; -fx-border-color: black;" text="LOGIN" textFill="WHITE" />
             <Text fill="#2343b8bf" layoutX="125.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sign in to 42 B.V.">
                <font>
                   <Font size="20.0" />
@@ -73,7 +73,7 @@
                <font>
                   <Font size="10.0" />
                </font></Text>
-            <ImageView fitHeight="121.0" fitWidth="119.0" layoutX="141.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView id="loginImage" fx:id="loginImage" fitHeight="121.0" fitWidth="119.0" layoutX="141.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../user-244.png" />
                </image>
